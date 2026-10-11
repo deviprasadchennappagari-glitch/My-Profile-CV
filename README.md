@@ -9,18 +9,14 @@ script.js       menu, scroll animation, contact form
 assets/         photos, resume, favicon, social-preview image
 ```
 
-## Fill in the placeholders
+## Keep your profile accurate
 
-Search the files for these and replace them:
+The portfolio includes your QA Automation Engineer positioning, selected enterprise testing work, and a personal portfolio project. Before publishing:
 
-| Search for | Where | What to do |
-|---|---|---|
-| `YOUR-USERNAME` | index.html (3 places) | your GitHub username |
-| `YOUR-SITE-URL` | index.html `<head>` | your live site URL (needed for link previews) |
-| `[ADD MEASURABLE IMPACT` / `[ADD METRIC` | Projects | real numbers from your work, or delete the line |
-| `[PERSONAL PROJECT]`, `[YOUR PROJECT NAME]` | Projects, card 03 | your own project, or delete the whole card |
-
-Placeholders show with a dashed underline on the page so they are hard to miss.
+- Confirm the canonical URL and social-preview URLs in `index.html` match the deployed address.
+- Add quantified outcomes only when you can verify the numbers; do not estimate time saved, defect reduction, or coverage.
+- Review project descriptions for employer confidentiality and update the generic client labels if needed.
+- Keep the resume file and its download link in sync.
 
 ## Edit content later
 
@@ -36,7 +32,7 @@ Placeholders show with a dashed underline on the page so they are hard to miss.
 2. Upload everything in this folder so `index.html` is at the top level of the repo.
 3. In the repo go to **Settings → Pages**, set Source to **Deploy from a branch**, branch `main`, folder `/ (root)`, and save.
 4. After a minute the site is live at `https://<your-username>.github.io/`.
-5. Put that URL into the `YOUR-SITE-URL` placeholders in `index.html` and commit.
+5. Update the canonical, Open Graph URL and image values in `index.html` if your deployed URL differs from the current GitHub Pages address.
 
 Other free options: Netlify or Cloudflare Pages (drag the folder in), or Vercel.
 
